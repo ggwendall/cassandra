@@ -10,6 +10,7 @@
 - [Arboresence](#Arboresence)
 - [Guide étape par étape](#Guide-étape-par-étape)
 - [Screenshot](#Screenshot)
+- [Conclusion](#Conclusion)
 - [Contributions](#contributions)
 
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
@@ -54,30 +55,17 @@ En binôme, vous allez accomplir les tâches suivantes :
 Pour organiser le projet sur votre machine, suivez cette arboresence :
 
 ```bash
-api-REST_Mongodb-CRUD
+cassandra-brief
 │ 
-├─── client 
-│   ├─── .streamlit
-│   │   └─── config.toml
-│   ├─── pages
-│   │   ├─── 01_Create_Post.py
-│   │   ├─── 02_Read_Get.py
-│   │   ├─── 03_Update_Put.py
-│   │   ├─── 04_Delete.py
-│   │   └─── 05_Infos.py
-│   ├─── client.py
-│   └─── requirements_client.txt
+├─── cassandra1_data
 │ 
-├─── mongo
-│   ├─── CO2_emission_by_countries.json
-│   └─── Dockerfile
+├─── cassandra2_data
 │
-├─── server
-│   ├─── connection_mongo.py
-│   ├─── my_api.py
-│   └─── requirements_api.txt
+├─── serveur_rest
+│   ├─── data.py
+│   ├─── serveur.py
+│   └─── requirements.txt
 │
-├─── .env 
 ├─── Dockerfile-serveur
 ├─── docker-compose.yml
 └─── readme.md
@@ -106,8 +94,6 @@ api-REST_Mongodb-CRUD
 4. **Intégration de l'API dans le fichier `docker-compose` (Bonus)**
 
    - Si vous choisissez de réaliser ce bonus, assurez-vous que le service de votre API est également configuré dans le fichier `docker-compose.yml`. Cela permettra de déployer l'API automatiquement avec le cluster Cassandra.
-
-![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Exécution du projet
 
