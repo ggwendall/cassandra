@@ -5,9 +5,8 @@
 ## Table des matières
 
 - [Introduction](#introduction)
-- [Objectif](#objectif)
 - [Prérequis](#prérequis)
--[Objectifs](#Objectifs)
+- [Objectifs](#Objectifs)
 - [Arboresence](#Arboresence)
 - [Guide étape par étape](#Guide-étape-par-étape)
 - [Screenshot](#Screenshot)
