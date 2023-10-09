@@ -113,6 +113,10 @@ cassandra-brief
 
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
+## Screenshot
+
+![MicrosoftTeams-image (2)](https://github.com/ggwendall/cassandra/assets/48108275/5c03d6ec-af5a-43f6-8bee-ec7735c43882)
+
 ## Conclusion
 
 Ce projet permet d'explorer les capacités de Cassandra en matière de gestion de données distribuées et de développer des compétences en développement d'API. N'hésitez pas à personnaliser ce README en fonction des détails spécifiques de votre implémentation. Bonne chance dans la réalisation de ce projet !
