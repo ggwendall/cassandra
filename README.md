@@ -1,3 +1,7 @@
+![banner2](https://github.com/ggwendall/cassandra/assets/48108275/ba999c90-c69f-4d72-acb6-31b78119579d)
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
+
 # README - Projet Cluster Cassandra avec API
 
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
