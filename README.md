@@ -7,9 +7,9 @@
 - [Introduction](#introduction)
 - [Objectif](#objectif)
 - [Prérequis](#prérequis)
+-[Objectifs](#Objectifs)
 - [Arboresence](#Arboresence)
-- [Utilisation](#utilisation)
-- [Portail Open Data](#portail-open-data)
+- [Guide étape par étape](#Guide-étape-par-étape)
 - [Screenshot](#Screenshot)
 - [Contributions](#contributions)
 
