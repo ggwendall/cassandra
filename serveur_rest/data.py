@@ -27,8 +27,22 @@ class DataAccess :
         return rows[0]
 
     @classmethod
-    def top_10(cls, grade):
-        rows = cls.session.execute('SELECT * FROM inspection WHERE grade = %s LIMIT 10', [grade])
-        return list(rows)
 
+    def top_10(cls, grade):
+
+        rows = cls.session.execute('SELECT idrestaurant FROM inspection WHERE grade = %s', [grade])
+
+        idrestaurants = list(set(row.idrestaurant for row in rows))[:10]
+
+        names = []
+
+        for idrestaurant in idrestaurants:
+
+            rows = cls.session.execute(f"SELECT name FROM restaurant WHERE id = {idrestaurant}")
+
+            for row in rows:
+
+                names.append(row.name)
+
+        return names
 
